@@ -1,5 +1,5 @@
 {% set name = "udsoncan" %}
-{% set version = "1.21.1" %}
+{% set version = "1.21.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/udsoncan-{{ version }}.tar.gz
-  sha256: 9fb723a5ca2946ba03ed18968d7db87a9fe12b0c6de81d49e40c7781603cdfda
+  sha256: 4a5b0631fd330f0f21c4a0eec608bfe826cb4912d9c87bcd549c1c1a939e8b27
 
 build:
   noarch: python
